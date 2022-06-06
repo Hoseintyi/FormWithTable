@@ -1,1 +1,4 @@
-<button class="btn btn-success">AvalinButton </button>
+<div class="container">
+ <app-add-form (onSaveUserClicked)="getDataFromFormForParent($event)" ></app-add-form>
+ <app-user-table [users]="users"></app-user-table>
+</div>
